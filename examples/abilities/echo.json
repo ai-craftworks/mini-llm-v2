@@ -1,0 +1,6 @@
+{
+  "name": "echo",
+  "description": "Declarative ability using a capture group and a fact: 'say hello'",
+  "patterns": ["^say (.+)$"],
+  "response": "{{match.1}} (said for {{fact.name|you}})"
+}

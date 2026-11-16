@@ -1,0 +1,16 @@
+{
+  "name": "mini-llm",
+  "version": "2.0.0",
+  "description": "A from-scratch mini transformer language model with memory, abilities and plugins. No dependencies.",
+  "main": "src/index.js",
+  "bin": { "mini-llm": "cli.js" },
+  "scripts": {
+    "train": "node cli.js train",
+    "chat": "node cli.js chat",
+    "test": "node test/run-all.js",
+    "gradcheck": "node --test test/gradcheck.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {}
+}

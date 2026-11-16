@@ -1,0 +1,7 @@
+{
+  "name": "ping",
+  "description": "Declarative (JSON) ability: replies 'pong'",
+  "patterns": ["^ping$"],
+  "examples": ["ping"],
+  "response": "pong"
+}
